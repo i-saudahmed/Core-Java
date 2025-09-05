@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LearnString",
+            "request": "launch",
+            "mainClass": "LearnString",
+            "projectName": "Java_ebd9bbd"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "Java_ebd9bbd"
+        },
+        {
+            "type": "java",
             "name": "forLoop",
             "request": "launch",
             "mainClass": "forLoop",
