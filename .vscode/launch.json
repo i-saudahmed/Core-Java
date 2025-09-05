@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "staticBlock",
+            "request": "launch",
+            "mainClass": "staticBlock",
+            "projectName": "Java_ebd9bbd"
+        },
+        {
+            "type": "java",
+            "name": "LearnStatic",
+            "request": "launch",
+            "mainClass": "LearnStatic",
+            "projectName": "Java_ebd9bbd"
+        },
+        {
+            "type": "java",
             "name": "LearnString",
             "request": "launch",
             "mainClass": "LearnString",
