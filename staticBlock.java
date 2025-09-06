@@ -21,6 +21,11 @@ class Mobile {
     public void Show() {
         System.out.println("Name is " + name + " Brand is " + brand + " Price is " + price);
     }
+
+    // ! static matlab class level par ha
+    public static void Show1(Mobile obj) {
+        System.out.println("Name " + name + " Brand " + obj.brand + " Price " + obj.price);
+    }
 }
 
 public class staticBlock {
@@ -28,15 +33,17 @@ public class staticBlock {
 
         // ? load class initially wihtout any issue
         Class.forName("Mobile");
-        // Mobile obj1 = new Mobile();
-        // obj1.brand = "Apple";
-        // obj1.price = 999;
+        Mobile obj1 = new Mobile();
+        obj1.brand = "Apple";
+        obj1.price = 999;
 
-        // Mobile obj2 = new Mobile();
-        // obj2.brand = "Samsung";
-        // Mobile.name = "New Tech";
+        Mobile obj2 = new Mobile();
+        obj2.brand = "Samsung";
+        Mobile.name = "New Tech";
 
         // obj1.Show();
         // obj2.Show();
+
+        Mobile.Show1(obj1);
     }
 }
