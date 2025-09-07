@@ -18,6 +18,7 @@ class B extends A {
         this();
         // super(n);
         System.out.println("in B value");
+
     }
 }
 
