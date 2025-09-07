@@ -1,7 +1,13 @@
-package inheritance;
+import java.util.ArrayList;
 
-public class Demo {
+// import java.lang.*;
+
+import inheritance.VeryAdvCalc;
+
+public class Demo2 {
     public static void main(String[] args) {
+
+        // ArrayList List = new ArrayList<>();
         VeryAdvCalc obj = new VeryAdvCalc();
         int r1 = obj.add(2, 5);
         int r2 = obj.sub(2, 5);
