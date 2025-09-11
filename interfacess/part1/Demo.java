@@ -1,4 +1,4 @@
-package interfacess;
+package interfacess.part1;
 
 // ! interface is another name of abstract classes
 // interface is for design purpose

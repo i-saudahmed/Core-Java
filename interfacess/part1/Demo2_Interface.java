@@ -1,4 +1,4 @@
-package interfacess;
+package interfacess.part1;
 
 interface A {
     void data();
