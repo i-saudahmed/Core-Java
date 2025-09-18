@@ -21,7 +21,8 @@ public class filterMapReduce {
         // ? behind the scenes of map
         Function<Integer, Integer> fun = n -> n * 2;
 
-        // int result = nums.stream().filter(n -> n % 2 == 0).map(n -> n * 2).reduce(0,
+        // ? int result = nums.stream().filter(n -> n % 2 == 0).map(n -> n *
+        // ? 2).reduce(0,
         // (c, e) -> c + e);
         // int result = nums.stream().filter(p).map(fun).reduce(0, (c, e) -> c + e);
 
